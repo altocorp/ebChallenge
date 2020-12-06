@@ -1,4 +1,9 @@
-
+.browserslistrc
+.editorconfig
+/e2e
+README.md
+karma.conf.js
+ 
 # compiled output
 /dist
 /tmp
@@ -6,13 +11,6 @@
 # Only exists if Bazel was run
 /bazel-out
 
-.browserslistrc
-.editorconfig
-/e2e
-README.md
-karma.conf.js
-
-src/test.ts
 
 # dependencies
 /node_modules
