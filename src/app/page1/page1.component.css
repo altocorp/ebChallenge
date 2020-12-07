@@ -105,39 +105,60 @@ svg {
   display: grid;
 }
 
-.blocPage3>.row>.col-md-3{
-    padding: 0 3vw 0 0;
-    background-color: white;
-    border-radius: 10px 10px 0 0;
+.blocPage3>.row>.col-md-3 {
+  padding: 0 3vw 0 0;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
 }
 
 
-.blocPage3>.row>.col-md-3>img{
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-    object-fit: cover;
-    height: 40vh;
-    cursor: pointer;
+.blocPage3>.row>.col-md-3>img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  object-fit: cover;
+  height: 40vh;
+  cursor: pointer;
 }
 
-.user{
-    font-size: 0.7rem;
-    color: rgba(99, 99, 99, 0.527)
-}
-
-
-.articleText{
-    font-size: 0.8rem;
-    color: rgba(99, 99, 99, 0.527)
-}
-
-.subImg{
-    padding: 3vh 1.5vw;
-    cursor: pointer;
-}
-
-.subImg>div{
-    padding: 1vh 0;
+.user {
+  font-size: 0.7rem;
+  color: rgba(99, 99, 99, 0.527)
 }
 
 
+.articleText {
+  font-size: 0.8rem;
+  color: rgba(99, 99, 99, 0.527)
+}
+
+.subImg {
+  padding: 3vh 1.5vw;
+  cursor: pointer;
+}
+
+.subImg>div {
+  padding: 1vh 0;
+}
+
+
+@media only screen and (max-width: 921px) {
+
+  
+
+  .page1 {
+    text-align: center;
+  }
+
+
+
+
+  .page2 {
+    text-align: center;
+    padding: 0 5vw;
+  }
+
+  .subTextBloc2 {
+    padding: 0 0 10vh 0;
+  }
+
+}
