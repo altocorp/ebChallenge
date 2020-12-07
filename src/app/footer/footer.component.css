@@ -16,7 +16,8 @@
 
 .list>.col {
   padding: 2vh;
-  color: hsl(220, 12%, 90%)
+  color: hsl(220, 12%, 90%);
+  cursor: pointer;
 }
 
 .end {
@@ -29,6 +30,7 @@
 
 .icons>svg {
   margin: 0 0.5vw;
+  cursor: pointer;
 }
 
 .btnRequest {
@@ -37,6 +39,7 @@
   padding: 1vh;
   border-radius: 25px;
   width: 140px;
+  cursor: pointer;
 }
 
 .colRight {
@@ -76,6 +79,7 @@
 
   .icons2>svg {
     margin: 0 1vw;
+    cursor: pointer;
   }
 
   .btnRequest2 {

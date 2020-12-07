@@ -1,10 +1,143 @@
-.bgTop{
-    margin-top: -40vh;
-    z-index: 0;
+.page1,
+.page3 {
+  background-color: hsl(0, 0%, 98%);
 }
 
-img{
-    position: absolute;
-    right: -10vw;
-    top: 20vh;
+.row {
+  margin: 0;
 }
+
+.bgTop {
+  margin-top: -40vh;
+  z-index: 0;
+  padding: 0;
+}
+
+.img1 {
+  width: 85%;
+  padding: 25vh 0 0 0;
+  display: block;
+  margin-left: 17vw;
+}
+
+.figure {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+}
+
+.blocLeft {
+  padding: 10vh 2vw 10vh 8vw;
+  display: grid;
+  align-content: center;
+}
+
+.title {
+  font-size: 2.8rem;
+}
+
+.text {
+  padding: 3vh 2vw 3vh 0;
+  color: rgba(99, 99, 99, 0.527);
+}
+
+.colRequest {
+  display: grid;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+.btnRequest {
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  color: white;
+  text-align: center;
+  padding: 1.5vh 0;
+  border-radius: 25px;
+  width: 12vw;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.page2 {
+  background-color: hsl(220, 16%, 96%);
+}
+
+.blocLeft2 {
+  padding: 10vh 2vw 4vh 8vw;
+  display: grid;
+}
+
+.title2 {
+  font-size: 2rem;
+}
+
+.bloc3 {
+  padding: 2vh 8vw;
+}
+
+.bloc3>div {
+  padding: 0 2vw 0 0;
+}
+
+svg {
+  cursor: pointer;
+}
+
+
+.subTitleBloc2 {
+  font-size: 1.2rem;
+  padding: 4vh 0;
+  font-weight: 350;
+  cursor: pointer;
+}
+
+.subTextBloc2 {
+  color: rgba(99, 99, 99, 0.527);
+}
+
+.titlePage3 {
+  font-size: 2rem;
+  padding: 10vh 0 4vh 0;
+}
+
+.blocPage3 {
+  padding: 2vh 8vw;
+  display: grid;
+}
+
+.blocPage3>.row>.col-md-3{
+    padding: 0 3vw 0 0;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.blocPage3>.row>.col-md-3>img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+    cursor: pointer;
+}
+
+.user{
+    font-size: 0.7rem;
+    color: rgba(99, 99, 99, 0.527)
+}
+
+
+.articleText{
+    font-size: 0.8rem;
+    color: rgba(99, 99, 99, 0.527)
+}
+
+.subImg{
+    padding: 3vh 1.5vw;
+    cursor: pointer;
+}
+
+.subImg>div{
+    padding: 1vh 0;
+}
+
+
