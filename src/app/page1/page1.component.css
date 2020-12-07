@@ -140,17 +140,30 @@ svg {
   padding: 1vh 0;
 }
 
+#smallScreen{
+  display: none;
+}
+
 
 @media only screen and (max-width: 921px) {
 
-  
+  #smallScreen{
+    display: block !important;
+  }
 
-  .page1 {
-    text-align: center;
+  #bigScreen{
+    display: none !important;
+  }
+
+  .blocLeft{
+    padding: 0 5vw;
   }
 
 
 
+  .page1 {
+    text-align: center;
+  }
 
   .page2 {
     text-align: center;
