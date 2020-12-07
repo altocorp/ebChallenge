@@ -1,0 +1,10 @@
+.bgTop{
+    margin-top: -40vh;
+    z-index: 0;
+}
+
+img{
+    position: absolute;
+    right: -10vw;
+    top: 20vh;
+}

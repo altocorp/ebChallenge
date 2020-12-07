@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    transition: 0.5s ease-out;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+*:focus {
+    outline: none;
+}

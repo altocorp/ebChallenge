@@ -1,0 +1,102 @@
+.fluid-container {
+  background-color: hsl(233, 26%, 24%);
+  color: hsl(233, 8%, 62%);
+  font-size: 0.9rem;
+  padding: 4vh;
+}
+
+.row {
+  margin: 0;
+}
+
+.mainCol {
+  display: grid;
+  align-items: center;
+}
+
+.list>.col {
+  padding: 2vh;
+  color: hsl(220, 12%, 90%)
+}
+
+.end {
+  text-align: end;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.icons>svg {
+  margin: 0 0.5vw;
+}
+
+.btnRequest {
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  color: white;
+  padding: 1vh;
+  border-radius: 25px;
+  width: 140px;
+}
+
+.colRight {
+  display: grid;
+  justify-content: end;
+  padding: 0;
+}
+
+.colRequest {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+
+.colRights {
+  font-size: 0.8rem;
+  text-align: end;
+  color: rgb(175, 174, 174);
+}
+
+#smallScreen {
+    display: none;
+  }
+
+@media only screen and (max-width: 921px) {
+  #bigScreen {
+    display: none !important;
+  }
+
+  #smallScreen {
+    display: block !important;
+  }
+
+  .row>div {
+    padding: 2vh;
+  }
+
+  .icons2>svg {
+    margin: 0 1vw;
+  }
+
+  .btnRequest2 {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    padding: 2vh;
+    border-radius: 25px;
+    width: 140px;
+  }
+
+  .colRequest2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+  }
+  
+  .colRights2 {
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(175, 174, 174);
+  }
+
+}
